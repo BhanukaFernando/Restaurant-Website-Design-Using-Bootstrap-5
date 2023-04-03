@@ -186,3 +186,15 @@ img {
 #Review .carousel-indicators{
     margin-bottom: -3rem;
 }
+
+/* Reservation */
+#Reservation .form-control{
+    border-radius: 0;
+}
+#Reservation .form-control:focus{
+    box-shadow: none;
+    border-color: #f58d17;
+}
+#Reservation input.form-control{
+    height: 47px;
+}
