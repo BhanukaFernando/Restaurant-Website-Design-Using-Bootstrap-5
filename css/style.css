@@ -160,50 +160,60 @@ img {
     text-align: center;
 
 }
+
 /* Team */
-.team-member img{
+.team-member img {
     max-width: 140px;
     box-shadow: -10px -10px 0 #f58d17;
     border-radius: 100px;
 }
+
 /* Review */
 #Review {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/cover3.jpg);
 }
-.review img{
+
+.review img {
     width: 75px;
     height: 75px;
     object-fit: cover;
 }
-.review .quote-icon{
+
+.review .quote-icon {
     font-size: 74px;
     color: #f58d17;
     line-height: 1;
 }
-.review .stars{
+
+.review .stars {
     color: #f58d17;
 }
-#Review .carousel-indicators{
+
+#Review .carousel-indicators {
     margin-bottom: -3rem;
 }
 
 /* Reservation */
-#Reservation .form-control{
+#Reservation .form-control {
     border-radius: 0;
 }
-#Reservation .form-control:focus{
+
+#Reservation .form-control:focus {
     box-shadow: none;
     border-color: #f58d17;
 }
-#Reservation input.form-control{
+
+#Reservation input.form-control {
     height: 47px;
 }
+
 /* Insta post */
-.insta-post{
+.insta-post {
     position: relative;
-  
+
 }
-.insta-post .insta-btn{
+
+.insta-post .insta-btn {
     width: 90px;
     height: 90px;
     background-color: #fff;
@@ -217,12 +227,31 @@ img {
     transform: translate(-50%, -50%);
     opacity: 0;
 }
-.insta-post img{
-    transition: all 0.4s;  
+
+.insta-post img {
+    transition: all 0.4s;
 }
-.insta-post:hover img{
+
+.insta-post:hover img {
     transform: scale(1.2);
 }
-.insta-post:hover .insta-btn{
+
+.insta-post:hover .insta-btn {
     opacity: 1;
+}
+
+/* blog */
+.blog-post img {
+    width: 40%;
+    object-fit: cover;
+}
+
+@media (max-width:768px) {
+    .blog-post {
+        flex-direction: column;
+    }
+
+    .blog-post img {
+        width: 100%;
+    }
 }
